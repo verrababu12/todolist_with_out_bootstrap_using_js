@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.todo-app {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.checkbox-input {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 10px;
+}
+
+.checkbox-label {
+  font-size: 16px;
+  flex: 1;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.edit-icon-container,
+.delete-icon-container {
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  font-size: 18px;
+  padding: 4px;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+  color: red;
+}
+
+.edit-input {
+  font-size: 16px;
+  padding: 2px;
+  width: 100%;
+}
